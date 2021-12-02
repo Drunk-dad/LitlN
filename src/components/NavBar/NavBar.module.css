@@ -1,0 +1,26 @@
+.wrapper{
+	display: flex;
+	justify-content: flex-end;
+	position: fixed;
+	width: 100%;
+	top: 0;
+	right: 0;
+}
+
+.container{
+display: flex;
+flex-direction: column;
+}
+
+.closeButton{
+	background-color: red;
+	margin: 0;
+	border: 0;
+	z-index: 10;
+}
+
+.navBar{
+	position: absolute;
+	background-color: royalblue;
+	z-index: 9;
+}
