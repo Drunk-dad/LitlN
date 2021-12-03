@@ -6,7 +6,6 @@ import s from './CoctailsContainer.module.css'
 const CoctailsContainer = () => {
 	return (
 		<div>
-
 			<CoctailCard titile={position.name}
 				description={position.description}
 				photo={position.photo}
