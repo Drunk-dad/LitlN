@@ -5,6 +5,7 @@ import AppRouter from './router/AppRouter'
 import { BrowserRouter } from 'react-router-dom'
 import 'bootstrap/dist/css/bootstrap.min.css';
 
+
 ReactDOM.render(
 	<React.StrictMode>
 		<BrowserRouter>
