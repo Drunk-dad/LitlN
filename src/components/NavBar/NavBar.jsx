@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import { Navbar, Container, Nav } from 'react-bootstrap';
+import { Link } from 'react-router-dom';
 import s from './NavBar.module.css'
 
 const NavBar = () => {
@@ -13,15 +14,15 @@ const NavBar = () => {
 					<Navbar bg="dark" variant="dark"  >
 						<Container className={s.container}>
 							<Nav className="me-auto" >
-								<Nav.Link href="/main">Dishes</Nav.Link>
-								<Nav.Link href="/menu">Drinks</Nav.Link>
-								<Nav.Link href="#pricing">Coctails</Nav.Link>
+								<Link to="/main" >  <Nav.Link as="div" > Dishes  </Nav.Link></Link>
+								<Link to="/menu" >	<Nav.Link as="div"> Drinks </Nav.Link></Link>
 							</Nav>
 						</Container>
 					</Navbar>
 				</div>
-			)}
-		</div>
+			)
+			}
+		</div >
 	)
 }
 export default NavBar

@@ -24,3 +24,7 @@ flex-direction: column;
 	background-color: royalblue;
 	z-index: 9;
 }
+
+.container a {
+		text-decoration: none;
+}

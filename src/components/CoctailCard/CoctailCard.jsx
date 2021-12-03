@@ -6,7 +6,7 @@ const CoctailCard = (props) => {
 	return (
 		<div>
 			<div>{title}</div>
-			<div>{photo}</div>
+			<img src={photo} />
 			<div>{description}</div>
 			<div>{price}</div>
 		</div>
