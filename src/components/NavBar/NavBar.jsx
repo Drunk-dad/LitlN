@@ -5,7 +5,7 @@ import s from './NavBar.module.css'
 
 const NavBar = () => {
 	const [isVisible, setIsVisible] = useState(false)
-	console.log(isVisible);
+
 	return (
 		<div className={s.wrapper}>
 			<button type="button" className={s.closeButton} onClick={() => setIsVisible(!isVisible)}>X</button>

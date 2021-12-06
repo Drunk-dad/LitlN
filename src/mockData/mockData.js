@@ -1,6 +1,6 @@
-export const positionы = [
+export const positions = [
   {
-    id: 0,
+    id: 10,
     name: 'Куба-либре',
     category: 'коктейль',
     availability: true,
@@ -11,7 +11,7 @@ export const positionы = [
     type: 'long',
     composition: [
       {
-        id: 0,
+        id: 30,
         name: 'ром',
         category: 'хаус',
         availability: true,
@@ -19,7 +19,7 @@ export const positionы = [
           'https://ulpressa.ru/wp-content/uploads/old/FullSizeRender-7.jpg',
       },
       {
-        id: 0,
+        id: 40,
         name: 'кола',
         category: 'хаус',
         availability: true,
@@ -29,7 +29,7 @@ export const positionы = [
     ],
   },
   {
-    id: 0,
+    id: 1,
     name: 'Куба-либре',
     category: 'коктейль',
     availability: true,
@@ -40,7 +40,7 @@ export const positionы = [
     type: 'long',
     composition: [
       {
-        id: 0,
+        id: 3,
         name: 'ром',
         category: 'хаус',
         availability: true,
@@ -48,7 +48,7 @@ export const positionы = [
           'https://ulpressa.ru/wp-content/uploads/old/FullSizeRender-7.jpg',
       },
       {
-        id: 0,
+        id: 4,
         name: 'кола',
         category: 'хаус',
         availability: true,
@@ -58,7 +58,7 @@ export const positionы = [
     ],
   },
   {
-    id: 0,
+    id: 5,
     name: 'Куба-либре',
     category: 'коктейль',
     availability: true,
@@ -69,7 +69,7 @@ export const positionы = [
     type: 'long',
     composition: [
       {
-        id: 0,
+        id: 6,
         name: 'ром',
         category: 'хаус',
         availability: true,
@@ -77,7 +77,7 @@ export const positionы = [
           'https://ulpressa.ru/wp-content/uploads/old/FullSizeRender-7.jpg',
       },
       {
-        id: 0,
+        id: 3,
         name: 'кола',
         category: 'хаус',
         availability: true,

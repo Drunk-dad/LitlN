@@ -5,5 +5,8 @@
   height: 100vh;
   width: 100%;
 	background-image: url("../../../static/images/bf0992fa874cea2cdcc89956264a7bb5.jpeg");
+	/* background-position: no-repeat ; */
+	background-repeat: no-repeat;
+	background-size: cover;
 }
 

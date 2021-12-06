@@ -1,4 +1,43 @@
+
 img{
 	width: 100px;
 	height: 100px;
+}
+
+.content{
+	color: white;
+	background-color: #ffffff1a;
+	font-family: Gill Sans, sans-serif;
+	padding: 0;
+	border: 0;
+	border: 2px white solid;
+  border-radius: 8px;
+}
+
+.content:hover {
+	transform: scale(1.05);
+	transition-duration: 0.5s;
+}
+
+.isVisible{
+	color: red;
+	width: 100%;
+	height: fit-content;
+}
+
+.closeButton button{
+	padding: 0;
+	border: 0;
+	display: flex;
+	background-color: #ffffff1a;
+}
+
+.cardHeader{
+	display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.title{
+
 }
